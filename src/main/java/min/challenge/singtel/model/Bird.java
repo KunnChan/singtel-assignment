@@ -4,13 +4,9 @@ package min.challenge.singtel.model;
  * package :  min.challenge.singtel.model
  */
 
-public class Bird extends Animal {
+public interface Bird extends Animal {
 
-    void fly() {
-        System.out.println("I am flying");
-    }
+    boolean fly();
 
-    void sing() {
-        System.out.println("I am singing");
-    }
+    void sing();
 }
