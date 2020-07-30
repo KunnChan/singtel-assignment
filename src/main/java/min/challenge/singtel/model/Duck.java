@@ -4,7 +4,7 @@ package min.challenge.singtel.model;
  * package :  min.challenge.singtel.model
  */
 
-public class Dark implements Bird {
+public class Duck implements Bird {
 
     @Override
     public boolean fly() {

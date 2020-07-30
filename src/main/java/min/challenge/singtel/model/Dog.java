@@ -4,8 +4,10 @@ package min.challenge.singtel.model;
  * package :  min.challenge.singtel.model
  */
 
-public interface Bird extends Animal {
+public class Dog implements Animal {
 
-    boolean fly();
-    void sing();
+    @Override
+    public void sing() {
+        System.out.println("Woof, woof");
+    }
 }

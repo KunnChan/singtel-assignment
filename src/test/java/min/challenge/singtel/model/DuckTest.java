@@ -5,27 +5,27 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class DarkTest {
+class DuckTest {
 
-    Dark dark;
+    Duck duck;
 
     @BeforeEach
     void setUp() {
-        dark = new Dark();
+        duck = new Duck();
     }
 
     @Test
     void sing() {
-        dark.sing();
+        duck.sing();
     }
 
     @Test
     void swim() {
-        dark.swim();
+        duck.swim();
     }
 
     @Test
     void fly() {
-        assertTrue(dark.fly());
+        assertTrue(duck.fly());
     }
 }
