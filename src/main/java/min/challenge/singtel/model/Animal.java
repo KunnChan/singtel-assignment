@@ -5,5 +5,8 @@ package min.challenge.singtel.model;
  */
 
 public interface Animal {
-    void walk();
+
+    default void walk() {
+        System.out.println("I am walking");
+    }
 }

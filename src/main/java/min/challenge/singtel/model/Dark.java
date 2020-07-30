@@ -20,8 +20,4 @@ public class Dark implements Bird {
         System.out.println("I am swimming");
     }
 
-    @Override
-    public void walk() {
-        System.out.println("I am walking");
-    }
 }

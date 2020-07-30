@@ -4,7 +4,7 @@ package min.challenge.singtel.model;
  * package :  min.challenge.singtel.model
  */
 
-public class Chicken implements Bird {
+public class Rooster implements Bird {
 
     @Override
     public boolean fly() {
@@ -13,7 +13,6 @@ public class Chicken implements Bird {
 
     @Override
     public void sing() {
-        System.out.println("Cluck, cluck");
+        System.out.println("Cock-a-doodle-doo");
     }
-
 }
