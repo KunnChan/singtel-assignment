@@ -4,10 +4,10 @@ package min.challenge.singtel.model;
  * package :  min.challenge.singtel.model
  */
 
-public class Chicken implements Bird {
+public class Chicken extends Bird {
 
     @Override
-    public boolean fly() {
+    public boolean canFly() {
         return false;
     }
 

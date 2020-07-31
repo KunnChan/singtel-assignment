@@ -4,12 +4,7 @@ package min.challenge.singtel.model;
  * package :  min.challenge.singtel.model
  */
 
-public class Duck implements Bird {
-
-    @Override
-    public boolean fly() {
-        return true;
-    }
+public class Duck extends Bird {
 
     @Override
     public void sing() {
@@ -20,4 +15,13 @@ public class Duck implements Bird {
         System.out.println("I am swimming");
     }
 
+    @Override
+    public boolean canFly() {
+        return true;
+    }
+
+    @Override
+    public boolean canSwim() {
+        return true;
+    }
 }

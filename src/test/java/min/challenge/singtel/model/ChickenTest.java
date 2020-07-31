@@ -21,7 +21,6 @@ class ChickenTest {
 
     @Test
     void fly() {
-        boolean canFly = chicken.fly();
-        assertFalse(canFly);
+        assertFalse(chicken.canFly());
     }
 }

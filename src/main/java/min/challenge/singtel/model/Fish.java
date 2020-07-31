@@ -4,31 +4,36 @@ package min.challenge.singtel.model;
  * package :  min.challenge.singtel.model
  */
 
-public class Bird implements Animal {
+public class Fish implements Animal {
+
+    String size;
+    String color;
+
+    public String getSize() {
+        return size;
+    }
+
+    public String getColor() {
+        return color;
+    }
 
     @Override
     public boolean canFly() {
-        return true;
+        return false;
     }
 
     @Override
     public boolean canWalk() {
-        return true;
+        return false;
     }
 
     @Override
     public boolean canSing() {
-        return true;
-    }
-
-    @Override
-    public void sing() {
-        System.out.println("Bird is singing");
+        return false;
     }
 
     @Override
     public boolean canSwim() {
-        return false;
+        return true;
     }
-
 }

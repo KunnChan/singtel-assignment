@@ -10,4 +10,24 @@ public class Dog implements Animal {
     public void sing() {
         System.out.println("Woof, woof");
     }
+
+    @Override
+    public boolean canFly() {
+        return false;
+    }
+
+    @Override
+    public boolean canWalk() {
+        return true;
+    }
+
+    @Override
+    public boolean canSing() {
+        return true;
+    }
+
+    @Override
+    public boolean canSwim() {
+        return false;
+    }
 }

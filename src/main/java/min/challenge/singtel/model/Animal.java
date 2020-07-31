@@ -6,9 +6,15 @@ package min.challenge.singtel.model;
 
 public interface Animal {
 
-    default void walk() {
-        System.out.println("I am walking");
+    default void sing() {
+        System.out.println("Animal singing!");
     }
 
-    void sing();
+    boolean canFly();
+
+    boolean canWalk();
+
+    boolean canSing();
+
+    boolean canSwim();
 }

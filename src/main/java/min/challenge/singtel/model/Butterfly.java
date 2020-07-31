@@ -1,15 +1,10 @@
 package min.challenge.singtel.model;
 /*
- * Created by kunnchan on 30/07/2020
+ * Created by kunnchan on 31/07/2020
  * package :  min.challenge.singtel.model
  */
 
-
-public class Parrot implements Animal {
-
-    public void sing(Animal animal) {
-        animal.sing();
-    }
+public class Butterfly implements Animal {
 
     @Override
     public boolean canFly() {
@@ -23,11 +18,12 @@ public class Parrot implements Animal {
 
     @Override
     public boolean canSing() {
-        return true;
+        return false;
     }
 
     @Override
     public boolean canSwim() {
         return false;
     }
+
 }

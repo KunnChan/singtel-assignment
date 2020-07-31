@@ -3,34 +3,25 @@ package min.challenge.singtel.model;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class DuckTest {
+class ButterflyTest {
 
-    Duck duck;
+    Butterfly butterfly;
 
     @BeforeEach
     void setUp() {
-        duck = new Duck();
-    }
-
-    @Test
-    void sing() {
-        duck.sing();
-    }
-
-    @Test
-    void swim() {
-        duck.swim();
+        butterfly = new Butterfly();
     }
 
     @Test
     void fly() {
-        assertTrue(duck.canFly());
+        assertTrue(butterfly.canFly());
     }
 
     @Test
-    void canSwim() {
-        assertTrue(duck.canSwim());
+    void makeSound() {
+        assertFalse(butterfly.canSing());
     }
 }
